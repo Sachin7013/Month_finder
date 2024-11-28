@@ -1,0 +1,17 @@
+Overview
+This C program takes an integer input representing the number of a month (1 to 12) and outputs the corresponding abbreviated month name. The program uses a switch statement to map the input number to the correct month.
+
+Functionality
+The program prompts the user to enter a number between 1 and 12.
+It then uses a switch statement to check the number and print the corresponding month abbreviation (e.g., 1 -> "jan", 2 -> "feb", etc.).
+If the input number is outside the valid range (1 to 12), it outputs "invalid input".
+Example
+Input: 5
+Output: may
+Code Walkthrough
+The program starts by declaring an integer variable n.
+The user is prompted to enter a number (1 to 12).
+The switch statement checks the value of n:
+For each valid month number (1 to 12), it prints the corresponding month abbreviation.
+If the value of n is outside this range, the program prints "invalid input".
+The program ends with a return 0.
